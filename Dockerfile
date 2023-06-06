@@ -1,8 +1,6 @@
-FROM ubuntu:20.04
-WORKDIR /usr/src/app
-RUN apt-get -y update
-RUN apt-get -y install curl
+FROM devopsdockeruh/simple-web-service:alpine
+CMD server
 
-COPY komento.sh .
-RUN chmod +x komento.sh
-CMD ./komento.sh
+# build and run commands:
+# docker build . -t web-server
+# docker run web-server
