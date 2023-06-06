@@ -1,0 +1,8 @@
+FROM ubuntu:20.04
+WORKDIR /usr/src/app
+RUN apt-get -y update
+RUN apt-get -y install curl
+
+COPY komento.sh .
+RUN chmod +x komento.sh
+CMD ./komento.sh
