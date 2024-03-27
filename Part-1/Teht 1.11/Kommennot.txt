@@ -1,0 +1,5 @@
+Kommennot:
+- build:
+	docker build . -t javapro
+- käynnistys:
+	docker run -p 8080:8080 javapro
