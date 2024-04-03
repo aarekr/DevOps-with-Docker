@@ -1,0 +1,8 @@
+Loin tehtäviä 1.15 ja 1.16 varten erikseen React -sovelluksen, 
+joka näyttää yksinkertaisen "Hello, Docker" -viestin.
+
+Docker Pull Command: docker pull aare212/hello-docker-app
+
+Docker Hub: https://hub.docker.com/r/aare212/hello-docker-app
+Render.com: https://hello-docker-app.onrender.com
+
